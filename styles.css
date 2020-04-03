@@ -13,8 +13,33 @@ html, body{
     background-repeat: no-repeat;
     min-width: 500px;
     height: 100%;
-    
+} 
+.section-container{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.65);
 }
+
+ .section-title{
+    
+    text-align: center;
+    font-size: 30px;
+    
+ }
+ .section-text{
+     background-color: rgba(0, 0, 0, 0.7) ;
+     margin: 0;
+     padding: 10px;
+     font-size: 18px;
+ }
+
+    .drinks-image{
+     max-width: 30%;
+     margin-top: -30px;
+    }
 /*----------HEADER--------------*/
 .main-header{
     position: relative;
@@ -52,6 +77,10 @@ html, body{
   transform: translate(-50%, -50%);
   max-width: 90%;
 }
+.ancora{
+    position: absolute;
+    top: -85px;
+}
 
 /*----------O LUGAR-------------*/
 .lugar{
@@ -64,3 +93,16 @@ html, body{
 }
 
 /*----------FOOTER--------------*/
+.main-footer{
+    position: relative;
+    padding-left: 100px;
+    padding-bottom: 30px;
+    
+}
+.footer-section{
+    display: inline-block;
+    vertical-align: top;
+    width: 33%;
+    min-width: 230px;
+}
+
